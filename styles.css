@@ -19,6 +19,7 @@ hr {
 /** container **/
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-center {
@@ -82,6 +83,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-style: inherit;
+    font-size: x-large;
 
 }
 
