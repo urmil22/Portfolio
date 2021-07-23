@@ -19,7 +19,7 @@ hr {
 /** container **/
 .container {
     padding: 0rem 1rem;
-    
+
 }
 
 .container-center {
@@ -30,10 +30,10 @@ hr {
 
 /** links **/
 .link {
-    
+
     text-decoration: none;
-    
- 
+
+
 }
 
 
@@ -41,20 +41,20 @@ hr {
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
     padding: 0.5rem 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: white;
     text-decoration: none;
-    
+    margin: 0.5rem;
+    margin-top: 2vh;
 }
 
 .link-secondary {
-    color: white;
-    border-radius: 1rem;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    background-color: var(--primary-color);
     padding: 0.5rem 1rem;
     text-decoration: none;
-
+    margin: 0.5rem;
 }
 
 /** lists **/
@@ -94,7 +94,7 @@ hr {
 
 .navigation .link {
     color: white;
-    
+
 }
 
 .navigation .link-active {
@@ -103,24 +103,26 @@ hr {
 
 /** header **/
 
-.about{
+.about {
     padding: 2rem;
     text-align: center;
 }
 
-.about .about-img{
+.about .about-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
 
-.about .about-heading{
+.about .about-heading {
     text-align: center;
     color: var(--dark-gray);
 }
-.about .about-heading .heading-inverted{
+
+.about .about-heading .heading-inverted {
     color: var(--primary-color);
 }
+
 .hero {
     padding: 2rem;
     text-align: center;
@@ -166,7 +168,7 @@ footer {
     text-align: center;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    
+
 }
 
 .footer .link {
@@ -174,12 +176,32 @@ footer {
 
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
-
+    color: black;
+    
 }
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.date {
+    font-size: 1rem;
+}
+
+.project-header {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin: 00.5rem;
+    text-align: center;
+    background-color: #A5B4FC;
+    border-radius: 1rem;
+    display: block;
+}
+
+.project-para {
+    font-size: larger;
+    
 }
