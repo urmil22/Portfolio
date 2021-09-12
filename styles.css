@@ -8,7 +8,7 @@
 
 .mark {
     padding: 0.5rem 1.5rem;
-    background:none;
+    background: none;
     margin: 0.5rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
@@ -82,11 +82,12 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 2rem 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    margin: 0.5rem;
+  
+
 }
 
 .navigation .nav-brand {
@@ -188,7 +189,7 @@ footer {
     font-weight: bold;
     font-size: large;
     color: black;
-    
+
 }
 
 .footer ul {
@@ -210,6 +211,43 @@ footer {
 }
 
 .project-para {
-    font-size: larger;
+    font-size:large;
+    font-weight: bold;
     
+}
+
+.project-btn {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem;
+    margin-top: 2vh;
+}
+
+.secondary-project-btn {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .project-para {
+        width: 15rem;
+    }
+
+    .project-btn {
+        display: block;
+        width: 8rem;
+    }
+
+    .secondary-project-btn {
+        display: block;
+        width: 8rem;
+    }
 }
