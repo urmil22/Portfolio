@@ -40,7 +40,7 @@ hr {
 .link {
 
     text-decoration: none;
-
+    
 
 }
 
@@ -239,15 +239,33 @@ footer {
 @media only screen and (max-width: 700px) {
     .project-para {
         width: 15rem;
+        
     }
 
     .project-btn {
         display: block;
         width: 8rem;
+        margin-left: 0.1rem;
     }
 
     .secondary-project-btn {
         display: block;
         width: 8rem;
+        margin-left: 0.1rem;
     }
+
+    .mark{
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+    .list-item-inline{
+        display: inline;
+        
+        font-size: small;
+        text-align: justify;
+    }
+    .navigation {
+        width: 100%;
+    }
+
 }
